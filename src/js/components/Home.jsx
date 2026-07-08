@@ -1,18 +1,52 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Home() {
-  const [nombre, setNombre] = useState("Ana López");
-  const [descripcion, setDescripcion] = useState("Desarrolladora Frontend");
-  const [colorFondo, setColorFondo] = useState("primary");
-  const [modoOscuro, setModoOscuro] = useState(false);
-  const [tamanoImagen, setTamanoImagen] = useState(120);
-  const [mostrarInfo, setMostrarInfo] = useState(true);
-  const [bordeRedondo, setBordeRedondo] = useState(true);
 
-  const claseTarjeta = modoOscuro
-    ? "card bg-dark text-white shadow-lg"
-    : `card bg-${colorFondo} text-white shadow-lg`;
+// function App() {
+//   let nombre = "Ana López";
+
+//   function cambiarNombre() {
+//     nombre = "Carlos Pérez";
+//     console.log(nombre);
+//   }
+
+//   return (
+//     <div>
+//       <h2>{nombre}</h2>
+//       <button onClick={cambiarNombre}>Cambiar nombre</button>
+//     </div>
+//   );
+// }
+
+
+
+// function App() {
+//   const [nombre, setNombre] = useState("Ana López");
+
+//   function cambiarNombre() {
+//     setNombre("Carlos Pérez");
+//   }
+
+//   return (
+//     <div>
+//       <h2>{nombre}</h2>
+//       <button onClick={cambiarNombre}>Cambiar nombre</button>
+//     </div>
+//   );
+// }
+
+function Home() {
+  // const [nombre, setNombre] = useState("Ana López");
+  // const [descripcion, setDescripcion] = useState("Desarrolladora Frontend");
+  // const [colorFondo, setColorFondo] = useState("primary");
+  // const [modoOscuro, setModoOscuro] = useState(false);
+  // const [tamanoImagen, setTamanoImagen] = useState(120);
+  // const [mostrarInfo, setMostrarInfo] = useState(true);
+  // const [bordeRedondo, setBordeRedondo] = useState(true);
+
+  // const claseTarjeta = modoOscuro
+  //   ? "card bg-dark text-white shadow-lg"
+  //   : `card bg-${colorFondo} text-white shadow-lg`;
 
 	return (
     <div className="container py-5">
